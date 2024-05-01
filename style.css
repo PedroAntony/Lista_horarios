@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    color: #394456;
+}
+
+.contariner{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    margin: 20px auto;
+}
+
+.rastreio{
+    display: flex;
+    margin: 35px 50px;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 19px;
+}
+select, input {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    outline: none;
+  }
+
+  input{
+    border: #394456 solid 1px;
+  }
+
+  .input-com-icone {
+    position: relative;
+    display: inline-block;
+  }
+
+  .input-com-icone svg {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    fill: #777; /* Cor do ícone */
+  }
+  
+  /* Estilo para a seta do select */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Estilo para quando o select está aberto */
+  select:focus {
+    border-color: #4CAF50;
+  }
+  
+  /* Estilo para as opções do select */
+  select option {
+    padding: 10px;
+  }
+
+.table_horarios {
+    border-collapse: collapse;
+    font-size: 20px;
+    width: 100%;
+}
+
+.table_horarios th, .table_horarios td {
+    padding: 8px;
+    text-align: center;
+}
+
+.table_horarios tr:nth-child(even) {
+    background-color: #f6f7f9;
+}
+
+.table_horarios, th {
+    border: #d7dce5 solid 1px;
+}
+
+.table_horarios tr:nth-child(odd) {
+    background-color: #fdfdfd;
+}
+
+.table_horarios td:first-child {
+    color: #2a60c8; /* Cor da primeira coluna */
+    width: 550px;
+}
+
+.red{
+    background-color: red;
+    border-radius: 13px;
+    border: #fdfdfd solid 2px;
+    color: #fdfdfd;
+}
+
+.green{
+    background-color: green;
+    border-radius: 13px;
+    border: #fdfdfd solid 2px;
+    color: #fdfdfd;
+}
+
